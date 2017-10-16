@@ -17,12 +17,18 @@ public class Pencacahan {
     public static void main(String[] args) {
         // TODO code application logic here
        
+        //inisialisasi batas awal dan akhir
         float a= -1;
         float b= 1;
+        
+        //inisialisasi nilai pencacah
         float pencacah = (float) 0.0000001;
         
+        //inisialisasi nilai kembali dan akarpersamaan
         float nilaikembali = 99999;
         float akarpersamaan = 99999;
+        
+        System.out.println("X | Y");
         while(a<=b){
             
             float y;
@@ -33,7 +39,7 @@ public class Pencacahan {
                 akarpersamaan = a;
             }
             
-            //System.out.println(a+" | "+y);
+            System.out.println(a+" | "+y);
             
             a += pencacah;
         }
@@ -43,6 +49,7 @@ public class Pencacahan {
     }
     
     public static float fungsi(float x){
+        //fungsi ini bisa diganti dengan fungsi apa pun
         float y = (x*x)-(7*x)-7;
         return y;
     }
