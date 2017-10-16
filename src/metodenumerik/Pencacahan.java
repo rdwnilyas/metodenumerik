@@ -24,7 +24,7 @@ public class Pencacahan {
         //inisialisasi nilai pencacah
         float pencacah = (float) 0.0000001;
         
-        //inisialisasi nilai kembali dan akarpersamaan
+        //inisialisasi nilai kembali dan akar persamaan
         float nilaikembali = 99999;
         float akarpersamaan = 99999;
         
