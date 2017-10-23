@@ -39,7 +39,7 @@ public class Pencacahan {
                 akarpersamaan = a;
             }
             
-            System.out.println(a+" | "+y);
+           // System.out.println(a+" | "+y);
             
             a += pencacah;
         }
